@@ -1,9 +1,8 @@
 <?php
-require __DIR__ . '/model/Food.php';
-require __DIR__ . '/model/Toys.php';
-require __DIR__ . '/model/Products.php';
-
-require __DIR__ . '/data/db.php';
+require_once __DIR__ . '/model/Food.php';
+require_once __DIR__ . '/model/Toys.php';
+require_once __DIR__ . '/model/Products.php';
+require_once __DIR__ . '/data/db.php';
 ?>
 
 <!DOCTYPE html>
