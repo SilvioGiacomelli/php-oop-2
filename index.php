@@ -66,3 +66,129 @@ require_once __DIR__ . '/data/db.php';
 </body>
 
 </html>
+
+<style>
+  .container {
+    margin-top: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-subtitle {
+    text-align: center;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  body {
+    background-color: yellow;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .card:hover .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card:hover .card-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .card:hover .card-img-top {
+    filter: brightness(0.8);
+  }
+
+  .card:hover .card-body {
+    background-color: #f8f9fa;
+  }
+
+  .card:hover .card-title {
+    color: #000;
+  }
+
+  .card:hover .card-subtitle {
+    color: #000;
+  }
+
+  .card:hover .card-text {
+    color: #000;
+  }
+
+  .card:hover .card-body {
+    color: #000;
+  }
+</style>
