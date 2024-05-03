@@ -1,10 +1,9 @@
 <?php
-require __DIR__ . '/data/db.php';
 require __DIR__ . '/model/Food.php';
-require __DIR__ . '/model/Toy.php';
+require __DIR__ . '/model/Toys.php';
 require __DIR__ . '/model/Products.php';
 
-var_dump($products[1]);
+require __DIR__ . '/data/db.php';
 ?>
 
 <!DOCTYPE html>

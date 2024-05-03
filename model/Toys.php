@@ -1,5 +1,7 @@
+
+
 <?php
-class Toy extends Products
+class Toys extends Products
 {
   public $size;
   public $material;
@@ -9,5 +11,13 @@ class Toy extends Products
     parent::__construct($name, $price, $img, $category);
     $this->size = $size;
     $this->material = $material;
+  }
+  public function getSize()
+  {
+    return $this->size;
+  }
+  public function getMaterial()
+  {
+    return $this->material;
   }
 }
