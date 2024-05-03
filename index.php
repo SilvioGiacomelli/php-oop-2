@@ -32,8 +32,10 @@ require_once __DIR__ . '/data/db.php';
             <img src="<?php echo $food->getImg(); ?>" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"><?php echo $food->getName(); ?></h5>
+              <h6 class="card-subtitle mb-2 text-muted"><?php echo $food->getCategory(); ?></h6>
               <p class="card-text"><?php echo $food->getPrice(); ?></p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text"><?php echo $food->getWeight(); ?></p>
+              <p class="card-text"><?php echo $food->getExpirationDate(); ?></p>
             </div>
           </div>
         </div>
@@ -50,8 +52,10 @@ require_once __DIR__ . '/data/db.php';
             <img src="<?php echo $toy->getImg(); ?>" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"><?php echo $toy->getName(); ?></h5>
+              <h6 class="card-subtitle mb-2 text-muted"><?php echo $food->getCategory(); ?></h6>
               <p class="card-text"><?php echo $toy->getPrice(); ?></p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text"><?php echo $toy->getSize(); ?></p>
+              <p class="card-text"><?php echo $toy->getMaterial(); ?></p>
             </div>
           </div>
         </div>
