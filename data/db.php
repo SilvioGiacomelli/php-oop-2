@@ -7,9 +7,9 @@ $db = [
     new Food('Scatolette', 5, 'https://www.lasorgente.net/594051-large_default/scatolette-gatto-miglior-gatto-405-g-bocconcini-manzoi.jpg', 'Gatti', '100g', '2023-12-31'),
   ],
   $toys = [
-    new Toys('Pallina', 3, 'https://www.petpassion.tv/wp-content/uploads/2021/06/croccantini-per-cani.jpg', 'Cani', 'small', 'plastic'),
-    new Toys('Osso', 5, 'https://www.petpassion.tv/wp-content/uploads/2021/06/croccantini-per-cani.jpg', 'Cani', 'medium', 'rubber'),
-    new Toys('Pallina', 3, 'https://www.petpassion.tv/wp-content/uploads/2021/06/croccantini-per-cani.jpg', 'Gatti', 'small', 'plastic'),
-    new Toys('Osso', 5, 'https://www.petpassion.tv/wp-content/uploads/2021/06/croccantini-per-cani.jpg', 'Gatti', 'medium', 'rubber'),
+    new Toys('Pallina', 3, 'https://m.media-amazon.com/images/I/61pvzQB4WDL.jpg', 'Cani', 'small', 'plastic'),
+    new Toys('Osso', 5, 'https://www.amicopet.it/1638-large_default/osso-grande-cane-in-pelle.jpg', 'Cani', 'medium', 'rubber'),
+    new Toys('Pallina', 3, 'https://m.media-amazon.com/images/I/61cHiGHSSxL.jpg', 'Gatti', 'small', 'plastic'),
+    new Toys('Topo', 5, 'https://www.robinsonpetshop.it/7445-large_default/karlie-topo-in-gomma-per-gatti.jpg', 'Gatti', 'medium', 'rubber'),
   ],
 ];
