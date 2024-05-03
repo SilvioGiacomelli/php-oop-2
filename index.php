@@ -25,25 +25,37 @@ require_once __DIR__ . '/data/db.php';
 
   <div class="container">
     <h2>Foods</h2>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+    <div class="row">
+      <?php foreach ($foods as $food) : ?>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="<?php echo $food->getImg(); ?>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><?php echo $food->getName(); ?></h5>
+              <p class="card-text"><?php echo $food->getPrice(); ?></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
     </div>
   </div>
 
   <div class="container">
     <h2>Toys</h2>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+    <div class="row">
+      <?php foreach ($toys as $toy) : ?>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="<?php echo $toy->getImg(); ?>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><?php echo $toy->getName(); ?></h5>
+              <p class="card-text"><?php echo $toy->getPrice(); ?></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
     </div>
   </div>
 

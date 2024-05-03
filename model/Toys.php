@@ -1,6 +1,5 @@
-
-
 <?php
+require_once 'Products.php';
 class Toys extends Products
 {
   public $size;

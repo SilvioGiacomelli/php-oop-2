@@ -1,4 +1,6 @@
 <?php
+require_once 'Products.php';
+
 class Food extends Products
 {
   public $weight;
