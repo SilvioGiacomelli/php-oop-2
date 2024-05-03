@@ -1,5 +1,4 @@
 <?php
-
 class Products
 {
   public $name;

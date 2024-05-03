@@ -1,5 +1,4 @@
 <?php
-
 class Toy extends Products
 {
   public $size;
