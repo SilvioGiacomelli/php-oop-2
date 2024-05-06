@@ -1,7 +1,9 @@
 <?php
+
 require_once 'Products.php';
 class Toys extends Products
 {
+  use Discount;
   public $size;
   public $material;
 
@@ -18,5 +20,13 @@ class Toys extends Products
   public function getMaterial()
   {
     return $this->material;
+  }
+}
+
+trait Discount
+{
+  public function getDiscount()
+  {
+    return "Offertissima!";
   }
 }
