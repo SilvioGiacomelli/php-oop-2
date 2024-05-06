@@ -56,6 +56,7 @@ require_once __DIR__ . '/data/db.php';
               <p class="card-text"><?php echo $toy->getPrice(); ?></p>
               <p class="card-text"><?php echo $toy->getSize(); ?></p>
               <p class="card-text"><?php echo $toy->getMaterial(); ?></p>
+              <p class="card-text"><?php echo $toy->getDiscount(); ?></p>
             </div>
           </div>
         </div>
